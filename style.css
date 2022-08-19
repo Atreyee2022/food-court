@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.banner {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.banner-img {
+  width: 100%;
+}
+
+.banner-heading {
+  color: Red;
+  position: absolute;
+  text-align: center;
+  top: 25%;
+}
+
+.banner-sub-heading {
+  color: #9FE2BF;
+  padding-right: 20px;
+}
+
+.para1 {
+  margin-left: 100px;
+  text-align: left;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  color: White;
+}
+
+.carousel-item {
+  border: 1px solid black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.h1 {
+  padding-left: 10px;
+  padding-bottom: 100px;
+  position: relative;
+  color: #ffffff;
+}
+
+.required::after {
+  content: '*';
+  width: 10px;
+  height: 10px;
+}
+
+.required::before {
+  content: '*';
+  width: 10px;
+  height: 10px;
+}
+.img-about {
+  padding-top: 30px;
+}
+.item{
+  width: 100%;
+}
+.footer {
+  background-color: #CCCCFF;
+}
+.outline{
+  border:2px solid #dc3545;
+}
